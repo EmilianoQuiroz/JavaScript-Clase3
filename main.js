@@ -116,6 +116,7 @@ se cumpla la condicion indicada, repite las
 instrucciones incluidas dentro del bucle 
 */
 //Ejemplo
+/*
 let entrada = prompt("Ingrese un dato: ")
 
 while(entrada != "Salir"){
@@ -127,6 +128,84 @@ while(entrada != "Salir"){
 
     entrada = prompt("Ingrese otro dato: ")
 }
+*/
 //002221
 
-//Cambios de prueba desde la notebook
+//---Estructura Switch---//
+/*
+La sentencia Switch sirve para manejar de forma sencilla
+multiples condiciones sobre una misma variable. Reemplaza 
+en estos al if ya que mediante un Switch conseguimos
+un codigo mucho mas ordenado
+*/
+//Estructura
+/*
+switch(variable){
+    case "Si la variable es esto":
+        "aqui ponemos el codigo que deseemos ejecutar"
+        break;
+    case 2:
+        break;
+    case 3:
+        break;
+    //En caso de que ninguno de los casos se cumpla...
+    //opcionalmente podemos poner un codigo que se ...
+    //ejecute por default, similar al else. 
+    
+    default:
+        "codigo a ejecutar"
+        break;
+}
+*/
+//while + switch
+/*
+let usuarios = prompt("Ingrese su usuario: ")
+
+while(usuarios != "Salir"){
+
+    switch(usuarios){
+        case "Ana":
+        case "ana": 
+            alert("Bienvenida Ana")
+            break;
+        case "Pepe":
+        case "pepe":
+            alert("Bienvenido Pepe")
+            break;
+        case "Luis":
+        case "luis":
+            alert("Bienvenido Luis")
+            break;
+        default:
+            alert("Digite un usuario valido")
+            break;
+    }
+    let usuarios = prompt("Digite su usuario: ")
+}
+*/
+
+//---Ejercicio---//
+/*
+Crear un algoritmo que repia un bloque de instrucciones.
+En cada repeticion es necesario efectuar una operacion o
+comparacion para obtener una salida por alerta o consola. 
+
+*/
+//010054
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
