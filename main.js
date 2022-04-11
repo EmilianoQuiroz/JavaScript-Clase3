@@ -192,7 +192,22 @@ comparacion para obtener una salida por alerta o consola.
 
 */
 //010054
+let entrada = ""
+let texto = ""
 
+
+do{
+    entrada = prompt("Ingrese un texto: ")
+ 
+    texto += entrada
+
+    if(texto != ""){
+        texto += " "
+    }
+
+    console.log(texto)
+
+}while(entrada!= "ESC")
 
 
 
